@@ -1,7 +1,7 @@
 trigger_word = {
     "https://www.youtube.com/shorts/" : ["youtube shorts"],
     "https://www.youtube.com/" : ["youtube"],
-    "https://www.nexttoppers.com/view-courses/details/11th_Class:28609&parent=" : ["my", "next toppers", "course"],
+    "https://www.nexttoppers.com/view-courses/details/......" : ["my", "next toppers", "course"],
     "https://www.nexttoppers.com/" : ["next toppers"],
     "https://www.flipkart.com" : ["flipkart"],
     "https://www.amazon.in" : ["amazon"],
@@ -16,4 +16,5 @@ trigger_word = {
     "https://open.spotify.com" : ["spotify"],
     "https://chat.deepseek.com/" : ["deep seek"],
     "https://www.meesho.com/" : ["meesho"]
+    #add more
 }
