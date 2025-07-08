@@ -19,12 +19,12 @@ print("[System]: loading functions...")
 # --- Setup ---
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
-genai.configure(api_key="AIzaSyDwMn4Bla7uxsBmT7Z1G0ove74VnhILsU4")
+genai.configure(api_key="[YOUR_API_KEY]")  # get your API Key from gemini
 
 model = genai.GenerativeModel("gemini-1.5-flash-8b")
 chat = model.start_chat(history=[])
 chat.send_message("Always answer in short. not over 50 words if not told to. update your memory to remember this point.")
-chat.send_message("Your name is friday and you are an AI assistant used for my laptop. my name is Harshit Maurya 15 years old and born on 15 dec 2009")
+chat.send_message("Your name is friday and you are an AI assistant used for my laptop. my name is [your name] [your age] years old and born on [birth date]")
 
 engine.setProperty('rate', 150)
 
