@@ -1,0 +1,2 @@
+# -->> Just copy the line below and paste it in the terminal, you also need python installed
+pip install speechrecognition pyttsx3 google-generativeai pyaudio pypiwin32 --upgrade protobuf
